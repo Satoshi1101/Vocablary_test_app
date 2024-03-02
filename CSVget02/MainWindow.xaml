@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Height="34" Margin="72,31,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="274" TextChanged="txtPath_TextChanged"/>
-        <Button x:Name="cmdCsvImport" Content="Button" HorizontalAlignment="Left" Height="27" Margin="251,91,0,0" VerticalAlignment="Top" Width="95" Click="cmdCsvImport_Click"/>
-        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="230" Margin="72,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="274" TextChanged="txtResult_TextChanged"/>
+        <TextBox x:Name="txtPath" HorizontalAlignment="Left" Height="34" Margin="72,31,0,0" TextWrapping="Wrap" Text="C:\Users\kbtk2\OneDrive\デスクトップ\C#app\gold_word.csv" VerticalAlignment="Top" Width="274" TextChanged="txtPath_TextChanged"/>
+        <Button x:Name="cmdCsvImport" Content="Button" HorizontalAlignment="Left" Height="27" Margin="368,34,0,0" VerticalAlignment="Top" Width="95" Click="cmdCsvImport_Click"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="29" Margin="72,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="274" TextChanged="txtResult_TextChanged"/>
     </Grid>
 </Window>

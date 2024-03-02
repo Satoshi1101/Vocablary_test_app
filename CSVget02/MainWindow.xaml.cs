@@ -69,27 +69,44 @@ namespace CSVget02
 
                     //--CSV読み込み処理  START --//
                     // ファイルの最後まで1行ずつループ
-                    while (!objParser.EndOfData)
-                    {
+                    //while (!objParser.EndOfData)
+                    //{
                         string strVeiwResult = "";
                         // フィールドを読込
                         string[] arrayRow = objParser.ReadFields();
+
+                        //2次元配列に格納
                         string[,] data = ReadCSV(strFilePath);
 
+                        string[] lines = File.ReadAllLines(strFilePath, Encoding.GetEncoding("Shift_JIS"));
+
+                        // CSVファイルの行数と列数を取得
+                        int rowCount = lines.Length;
+
+
+                        /* CSVファイルの内容をすべて出力するコード
                         foreach (string strField in arrayRow)
                         {
                             // カンマ区切りで出力文字列を生成
                             strVeiwResult = strVeiwResult + strField + ",";
                         }
 
-
-
                         //列の末尾のカンマを削除
                         strVeiwResult = strVeiwResult.TrimEnd(',');
 
                         //テキストボックスに表示
                         txtResult.Text = txtResult.Text + strVeiwResult + Environment.NewLine;
-                    }
+                        */
+
+                        // ランダムな数値を生成するRandomオブジェクトを作成
+                        Random random = new Random();
+
+                        // 列数内のランダムな数値を格納
+                        int randomNumber = random.Next(0, rowCount);
+
+                        //テキストボックスに表示
+                        txtResult.Text = data[randomNumber, 2];
+                    //}
                     //--CSV読み込み処理  END  --//
                 }
 
@@ -125,7 +142,7 @@ namespace CSVget02
                 }
             }
 
-            return data;
+            return (data);
         }
 
         private void txtPath_TextChanged(object sender, TextChangedEventArgs e)
