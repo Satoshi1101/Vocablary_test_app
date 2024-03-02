@@ -1,0 +1,15 @@
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02.csproj.AssemblyReference.cache
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\MainWindow.g.cs
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\App.g.cs
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02_MarkupCompile.cache
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02_MarkupCompile.lref
+C:\C_project\CSV_get\CSVget02\CSVget02\bin\Release\CSVget02.exe.config
+C:\C_project\CSV_get\CSVget02\CSVget02\bin\Release\CSVget02.exe
+C:\C_project\CSV_get\CSVget02\CSVget02\bin\Release\CSVget02.pdb
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\MainWindow.baml
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02.g.resources
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02.Properties.Resources.resources
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02.csproj.GenerateResource.cache
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02.csproj.CoreCompileInputs.cache
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02.exe
+C:\C_project\CSV_get\CSVget02\CSVget02\obj\Release\CSVget02.pdb
